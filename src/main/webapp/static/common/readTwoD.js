@@ -55,7 +55,8 @@ function uploadTwo(){
 function readContent(str){
 	$.ajax({
 		type: "POST",
-		url: locat+'/a/tools/TwoDimensionCodeController/readTwoDimensionCode',
+		//url: locat+'/a/tools/TwoDimensionCodeController/readTwoDimensionCode',
+		url: locat+'/tools/TwoDimensionCodeController/readTwoDimensionCode',
     	data: {imgId:str,tm:new Date().getTime()},
 		dataType:'json',
 		cache: false,
@@ -84,7 +85,8 @@ function createTwoD(){
 	}
 	$.ajax({
 		type: "POST",
-		url: locat+'/a/tools/TwoDimensionCodeController/createTwoDimensionCode.do',
+		//url: locat+'/a/tools/TwoDimensionCodeController/createTwoDimensionCode.do',
+		url: locat+'/tools/TwoDimensionCodeController/createTwoDimensionCode.do',
     	data: {encoderContent:$("#encoderContent").val(),tm:new Date().getTime()},
 		dataType:'json',
 		cache: false,
