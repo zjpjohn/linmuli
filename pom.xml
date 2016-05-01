@@ -530,7 +530,7 @@
             <port>20000</port>
           </httpConnector>
           <webApp>
-            <contextPath>/jyzbcms</contextPath>
+            <contextPath>/linmuli</contextPath>
           </webApp>
         </configuration>
       </plugin>
