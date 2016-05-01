@@ -76,6 +76,11 @@
       <artifactId>spring-oxm</artifactId>
       <version>${spring.version}</version>
     </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-expression</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
 
     <!-- 动态代理 -->
     <dependency>
