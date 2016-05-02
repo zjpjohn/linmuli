@@ -85,8 +85,8 @@ function createTwoD(){
 	}
 	$.ajax({
 		type: "POST",
-		//url: locat+'/a/tools/TwoDimensionCodeController/createTwoDimensionCode.do',
-		url: locat+'/tools/TwoDimensionCodeController/createTwoDimensionCode.do',
+		url: locat+'/a/tools/TwoDimensionCodeController/createTwoDimensionCode.do',
+		//url: locat+'/tools/TwoDimensionCodeController/createTwoDimensionCode.do',
     	data: {encoderContent:$("#encoderContent").val(),tm:new Date().getTime()},
 		dataType:'json',
 		cache: false,

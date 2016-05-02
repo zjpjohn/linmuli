@@ -34,8 +34,8 @@ function sendSever(){
 	var startTime = new Date().getTime(); //请求开始时间  毫秒
 	$.ajax({
 		type: "POST",
-		//url: locat+'/a/tools/testInterface/severTest',
-		url: locat+'/tools/testInterface/severTest',
+		url: locat+'/a/tools/testInterface/severTest',
+		//url: locat+'/tools/testInterface/severTest',
     	data: {serverUrl:$("#serverUrl").val(),requestBody:$("#requestBody").val(),requestMethod:$("#S_TYPE").val(),tm:new Date().getTime()},
 		dataType:'json',
 		cache: false,

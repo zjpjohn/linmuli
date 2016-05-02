@@ -555,7 +555,7 @@ xxim.socket = {
 			}
 			webSocket =   new WebSocket(wsServer);
 			webSocket.onerror = function(event) {
-				  alert("websockt连接发生错误，请刷新页面重试!")
+				  //alert("websockt连接发生错误，请刷新页面重试!")
 			};
 
 			webSocket.onopen = function(event) {
